@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLP Academy Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="container">
+            <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <img src="https://images.unsplash.com/photo-1602992708529-c9fdb12905c9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Profile photo of a young person" class="profile-image">
+            <h1>Hi! I'm Isaac Mwiti Kubai</h1>
+            <p>A passionate web developer specializing in creating seamless digital experiences. Let's build something amazing together!</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </section>
+        
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <p>Hello! I'm a dedicated software developer with a strong foundation in both front-end and back-end technologies. My journey began with a curiosity for how websites work, which quickly evolved into a passion for building robust and user-friendly applications. I thrive in collaborative environments and am always eager to learn new technologies to solve complex problems and deliver high-quality code. When I'm not coding, you can find me exploring new frameworks or contributing to open-source projects.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Vue.js</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Python</li>
+                            <li>Express</li>
+                            <li>Flask</li>
+                            <li>SQL</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Others</h3>
+                        <ul>
+                            <li>Git & GitHub</li>
+                            <li>Docker</li>
+                            <li>AWS</li>
+                            <li>REST APIs</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Experience & Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Software Development Intern</h3>
+                            <p><strong>Tech Innovations Inc.</strong> | Jan 2024 - Present</p>
+                            <ul>
+                                <li>Assisted in developing and maintaining web applications using React and Node.js.</li>
+                                <li>Contributed to code reviews and improved application performance by 15%.</li>
+                                <li>Collaborated with a team of developers to debug and resolve technical issues.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>B.S. in Computer Science</h3>
+                            <p><strong>University of Technology</strong> | 2021 - 2025</p>
+                            <ul>
+                                <li>Graduated with a focus on web development and data structures.</li>
+                                <li>Developed a full-stack e-commerce platform as a capstone project.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>E-commerce Store</h3>
+                        <p>A full-stack e-commerce application built with MERN stack. Features include user authentication, a shopping cart, and a secure payment gateway.</p>
+                        <a href="#" class="project-link">Live Demo &rarr;</a>
+                        <a href="#" class="project-link">GitHub &rarr;</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Task Management App</h3>
+                        <p>A responsive to-do list application. Built using Vanilla JavaScript and CSS, demonstrating clean code and effective state management.</p>
+                        <a href="#" class="project-link">Live Demo &rarr;</a>
+                        <a href="#" class="project-link">GitHub &rarr;</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Weather Dashboard</h3>
+                        <p>A dynamic weather application that fetches data from an external API to display real-time weather information for any city.</p>
+                        <a href="#" class="project-link">Live Demo &rarr;</a>
+                        <a href="#" class="project-link">GitHub &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="contact-intro">I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+                <div class="form-container">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Isaac Mwiti. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
